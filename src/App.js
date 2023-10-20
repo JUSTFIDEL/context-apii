@@ -1,14 +1,14 @@
 import Count from './components/Count'
-import CounterContextProvider from './contexts/CounterContext'
+import CountingContextProvider from './contexts/CountingContext'
 
 function App() {
 	return (
-		<CounterContextProvider>
+		<CountingContextProvider>
 			<div className='app'>
 				<h1>Context API</h1>
 				<Count />
 			</div>
-		</CounterContextProvider>
+		</CountingContextProvider>
 	)
 }
 

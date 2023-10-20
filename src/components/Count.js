@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import { CounterContext } from '../contexts/CounterContext.js'
+import { CountingContext } from '../contexts/CountingContext'
 
 function Count() {
-	const { count, increase, decrease } = useContext(CounterContext)
+	const { count, increase, decrease } = useContext(CountingContext)
 
 	return (
 		<div className='count_cont'>
