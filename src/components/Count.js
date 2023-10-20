@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import { CounterContext } from '../contexts/CounterContext'
+import { useContext } from 'react'
+import { CounterContext } from '../contexts/CounterContext.js'
 
 function Count() {
 	const { count, increase, decrease } = useContext(CounterContext)
